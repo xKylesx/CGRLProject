@@ -1,0 +1,14 @@
+LAN1pc1:r1
+LAN1pc2:r1
+LAN1ServerPriv:r1
+
+LAN2pc1:r1
+LAN2pc2:r1
+
+LAN3pc1:r1
+LAN3pc2:r1
+
+ServerDNS:r1
+ServerWeb:r1
+
+r2:r1
