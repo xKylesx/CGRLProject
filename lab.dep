@@ -8,7 +8,7 @@ LAN2pc2:r1
 LAN3pc1:r1
 LAN3pc2:r1
 
-ServerDNS:r1
-ServerWeb:r1
+serverDNS:r1
+serverWeb:r1
 
 r2:r1
