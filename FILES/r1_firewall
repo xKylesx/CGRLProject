@@ -1,0 +1,6 @@
+iptables -P FORWARD DROP
+iptables -P INPUT DROP
+
+iptables -t nat -A POSTROUTING -i eth1 -j MASQUERADE
+iptables -t nat -A POSTROUTING -i eth2 -j MASQUERADE
+iptables -t nat -A POSTROUTING -i eth3 -j MASQUERADE
