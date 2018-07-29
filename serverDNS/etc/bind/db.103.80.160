@@ -1,0 +1,14 @@
+$TTL 2d
+103.80.160.in-addr.arpa. IN SOA kermit.rana.com. hostmaster.rana.com. (
+	2018072700 ; serial
+	3600 ; refresh
+	600 ; retry
+	86400 ; expire
+	0 ; negative cache ttl
+)
+
+103.80.160.in-addr.arpa.	IN	NS	kermit.rana.com.
+
+100	IN	PTR	kermit.rana.com.
+200	IN	PTR	lobo.rana.com
+

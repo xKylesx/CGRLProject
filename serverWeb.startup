@@ -2,5 +2,5 @@ ifconfig eth0 hw ether 00:00:00:00:02:00
 ip link set eth0 up
 dhclient eth0
 
-/etc/init.d/apache2 start
 a2enmod ssl
+/etc/init.d/apache2 start

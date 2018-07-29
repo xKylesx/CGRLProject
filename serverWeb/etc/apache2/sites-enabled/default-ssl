@@ -1,1 +1,24 @@
-sites-available/default-ssl
+<IfModule mod_ssl.c>
+<VirtualHost _default_:443>
+DocumentRoot "/var/www"
+
+ServerName lobo.rana.com
+ServerAdmin lobo@rana.com
+
+SSLEngine On
+SSLCipherSuite HIGH:MEDIUM
+SSLProtocol all -SSLv2
+SSLCertificateFile /filesCA/server.crt
+SSLCertificateKeyFile /filesCA/server.key
+SSLCertificateChainFile /filesCA/ca.crt
+SSLCACertificateFile /filesCA/ca.crt	
+
+<Directory "/var/www">
+	Options Indexes
+	AllowOverride None
+	Allow from from all
+	Order allow,deny
+</Directory>
+
+</VirtualHost>
+</IfModule>

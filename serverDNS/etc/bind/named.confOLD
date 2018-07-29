@@ -1,0 +1,12 @@
+include "/etc/bind/named.conf.options";
+
+zone "." {
+	type hint;
+	file "/etc/bind/db.root";
+}
+
+zone "rana.com" {
+	type master;
+	file "/etc/bind/db.rana.com";	
+}
+
