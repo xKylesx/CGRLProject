@@ -1,0 +1,82 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=IT, ST=Italy, L=Rome, O=Metallica srl, CN=Master-of-puppCerts/emailAddress=charlesleclerc@sauber.it
+        Validity
+            Not Before: Jul 30 09:31:52 2018 GMT
+            Not After : Jul 27 09:31:52 2028 GMT
+        Subject: C=IT, ST=Italy, L=Rome, O=Metallica srl, CN=the-unforgiVPN-client1/emailAddress=charlesleclerc@sauber.it
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:bd:b4:a8:6f:7d:11:e8:f2:34:6a:e4:31:d0:44:
+                    b5:37:a8:98:28:a4:bb:97:9c:15:ad:0e:ff:63:e8:
+                    4d:3b:4a:ba:d8:88:7b:ed:19:cc:de:5d:c1:28:9c:
+                    96:90:cf:16:a9:66:3c:3f:b6:0d:ec:4f:df:54:f4:
+                    d3:ed:02:65:f0:ac:6c:09:14:ed:a9:ea:55:70:66:
+                    31:88:4f:69:60:da:2e:3a:a3:f0:5d:24:25:63:0c:
+                    42:78:aa:85:8e:f3:1d:e5:d7:60:0e:46:c9:d0:22:
+                    0f:d1:63:20:af:bf:5c:00:3f:7e:d8:4e:0a:d9:6d:
+                    4c:d6:db:8a:2c:27:8b:ce:6f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                5E:7F:A8:C3:32:EF:C2:B7:72:AD:B9:BA:5D:8C:E7:0D:F1:7C:60:C0
+            X509v3 Authority Key Identifier: 
+                keyid:DE:B3:4B:C7:B8:F4:76:96:3B:07:F1:01:D8:F1:DB:16:E2:9C:27:C1
+                DirName:/C=IT/ST=Italy/L=Rome/O=Metallica srl/CN=Master-of-puppCerts/emailAddress=charlesleclerc@sauber.it
+                serial:90:BB:74:A5:88:2D:96:F7
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+        4f:6e:a1:0a:57:e8:1c:9f:b5:ad:f2:d5:2e:b0:a9:dc:c0:32:
+        ed:9e:30:25:34:67:fb:0e:c5:78:99:0e:97:b7:a7:58:6f:c0:
+        b0:09:1b:e0:bc:0b:d1:d0:93:9f:66:4f:fc:64:3f:36:ae:d1:
+        02:a7:17:88:74:b4:2f:54:e8:12:6f:d0:e3:ba:b3:b1:07:24:
+        15:d3:8f:ac:fa:5f:87:67:37:a0:ae:43:6c:bd:30:b0:07:3e:
+        79:52:e9:3a:89:67:97:e7:5b:9a:74:34:76:e8:99:ca:b2:a4:
+        40:14:94:47:c0:b5:6e:ea:0f:d7:8d:0c:34:e5:42:75:c1:12:
+        ed:7d:bb:87:e7:40:29:ab:c4:33:7c:a9:a6:9f:a1:94:a3:8c:
+        7b:65:f0:43:b1:d7:a3:b4:e2:59:bc:af:1b:d6:6f:0b:0e:8d:
+        0e:66:76:12:fa:96:a9:79:cc:90:74:b9:01:8c:40:e9:bd:9e:
+        9d:46:9e:4a:e6:08:ff:b0:de:56:63:fd:ab:fd:b2:96:a0:3d:
+        41:8b:cf:d1:81:d3:0a:36:12:db:a4:9a:51:3a:b7:f1:8e:80:
+        53:df:e7:52:7b:6d:9c:9d:8f:a2:f4:2d:ef:4d:59:6e:05:e2:
+        00:0d:c2:47:24:9b:04:52:d0:11:fe:cc:4b:45:f6:c1:0a:91:
+        3a:5d:f3:01
+-----BEGIN CERTIFICATE-----
+MIIEVjCCAz6gAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBizELMAkGA1UEBhMCSVQx
+DjAMBgNVBAgMBUl0YWx5MQ0wCwYDVQQHDARSb21lMRYwFAYDVQQKDA1NZXRhbGxp
+Y2Egc3JsMRwwGgYDVQQDDBNNYXN0ZXItb2YtcHVwcENlcnRzMScwJQYJKoZIhvcN
+AQkBFhhjaGFybGVzbGVjbGVyY0BzYXViZXIuaXQwHhcNMTgwNzMwMDkzMTUyWhcN
+MjgwNzI3MDkzMTUyWjCBjjELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ0w
+CwYDVQQHEwRSb21lMRYwFAYDVQQKEw1NZXRhbGxpY2Egc3JsMR8wHQYDVQQDExZ0
+aGUtdW5mb3JnaVZQTi1jbGllbnQxMScwJQYJKoZIhvcNAQkBFhhjaGFybGVzbGVj
+bGVyY0BzYXViZXIuaXQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL20qG99
+EejyNGrkMdBEtTeomCiku5ecFa0O/2PoTTtKutiIe+0ZzN5dwSiclpDPFqlmPD+2
+DexP31T00+0CZfCsbAkU7anqVXBmMYhPaWDaLjqj8F0kJWMMQniqhY7zHeXXYA5G
+ydAiD9FjIK+/XAA/fthOCtltTNbbiiwni85vAgMBAAGjggFCMIIBPjAJBgNVHRME
+AjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNh
+dGUwHQYDVR0OBBYEFF5/qMMy78K3cq25ul2M5w3xfGDAMIHABgNVHSMEgbgwgbWA
+FN6zS8e49HaWOwfxAdjx2xbinCfBoYGRpIGOMIGLMQswCQYDVQQGEwJJVDEOMAwG
+A1UECAwFSXRhbHkxDTALBgNVBAcMBFJvbWUxFjAUBgNVBAoMDU1ldGFsbGljYSBz
+cmwxHDAaBgNVBAMME01hc3Rlci1vZi1wdXBwQ2VydHMxJzAlBgkqhkiG9w0BCQEW
+GGNoYXJsZXNsZWNsZXJjQHNhdWJlci5pdIIJAJC7dKWILZb3MBMGA1UdJQQMMAoG
+CCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQUFAAOCAQEAT26hClfo
+HJ+1rfLVLrCp3MAy7Z4wJTRn+w7FeJkOl7enWG/AsAkb4LwL0dCTn2ZP/GQ/Nq7R
+AqcXiHS0L1ToEm/Q47qzsQckFdOPrPpfh2c3oK5DbL0wsAc+eVLpOolnl+dbmnQ0
+duiZyrKkQBSUR8C1buoP140MNOVCdcES7X27h+dAKavEM3yppp+hlKOMe2XwQ7HX
+o7TiWbyvG9ZvCw6NDmZ2EvqWqXnMkHS5AYxA6b2enUaeSuYI/7DeVmP9q/2ylqA9
+QYvP0YHTCjYS26SaUTq38Y6AU9/nUnttnJ2PovQt701ZbgXiAA3CRySbBFLQEf7M
+S0X2wQqROl3zAQ==
+-----END CERTIFICATE-----
